@@ -15,30 +15,30 @@
 
 Starting with Android 13, unsigned or modified apps placed in the system are not recognised. This module patches the required system files on your device to remove that restriction. Most Mods Center modules need it.
 
-## ✨ Features
+## Features
 - Works on AOSP and OEM ROMs: HyperOS, ColorOS and more
 - Patches the files on your device during install, so it matches your ROM
 - Can patch a JAR you provide: put `framework.jar` (Android 15+) or `services.jar` (Android 14 and older) in `/sdcard/mods_center/` and flash. The patched JAR is saved to the same folder.
 
-## 📋 Requirements
+## Requirements
 - Android 13 or newer, stock or custom ROM
 - Magisk, KernelSU or APatch
 
-## 📥 Installation
+## Installation
 1. Download the latest zip from [**Releases**](https://github.com/Mods-Center/Apk-Protection-Patch/releases/latest).
 2. Flash it in Magisk, KernelSU or APatch.
 3. Installation takes a while because the files are patched on the device.
 4. Reboot your device.
 
-## ⚠️ Notes
+## Notes
 - Also see [Apk Signature Verification Patch](https://github.com/Mods-Center/Apk-Signature-Verification-Patch), which disables signature checks completely so modified apps can also be installed as normal apps.
 
 ---
 
 <div align="center">
 
-Made by **[Kashi](https://t.me/kakashi1v1)** · part of **[Mods Center](https://github.com/Mods-Center)**
+Made by **[🅺🅰🆂🅷🅸](https://t.me/kakashi1v1)** · part of **[Mods Center](https://github.com/Mods-Center)**
 
-[📢 Channel](https://t.me/kashis_cringey_stuffs) · [💬 Support group](https://t.me/bootloop_discussion) · [🐞 Report a bug](https://github.com/Mods-Center/Apk-Protection-Patch/issues)
+[Channel](https://t.me/kashis_cringey_stuffs) · [Support group](https://t.me/bootloop_discussion) · [Report a bug](https://github.com/Mods-Center/Apk-Protection-Patch/issues)
 
 </div>
