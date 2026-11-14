@@ -18,6 +18,7 @@ Starting with Android 13, unsigned or modified apps placed in the system are not
 ## Features
 - Works on AOSP and OEM ROMs: HyperOS, ColorOS and more
 - Patches the files on your device during install, so it matches your ROM
+- Lightweight (about 12 MB) and quick: patching runs on the phone's own Android runtime, no Java bundled
 - Can patch a JAR you provide: put `framework.jar` (Android 15+) or `services.jar` (Android 14 and older) in `/sdcard/mods_center/` and flash. The patched JAR is saved to the same folder.
 
 ## Requirements
@@ -27,10 +28,12 @@ Starting with Android 13, unsigned or modified apps placed in the system are not
 ## Installation
 1. Download the latest zip from [**Releases**](https://github.com/Mods-Center/Apk-Protection-Patch/releases/latest).
 2. Flash it in Magisk, KernelSU or APatch.
-3. Installation takes a while because the files are patched on the device.
+3. The files are patched on the device during install; this only takes a moment.
 4. Reboot your device.
 
 ## Notes
+- Flash it again after every ROM update.
+- First boot after flashing takes longer while the system rebuilds its cache; this is normal.
 - Also see [Apk Signature Verification Patch](https://github.com/Mods-Center/Apk-Signature-Verification-Patch), which disables signature checks completely so modified apps can also be installed as normal apps.
 
 ---
