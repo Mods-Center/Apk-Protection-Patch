@@ -1,3 +1,10 @@
+## v4.2 (46)
+
+Remove APK protection — v4.2 (versionCode 44).
+
+- Complete APKEditor 1.4.9 engine (fixes "Decompile failed / inStream parameter is null" at install).
+- Install-time integrity gate: aborts safely if the rebuilt jar's non-code resources change, instead of installing a jar that crashes at boot.
+
 ## v4.2 (45)
 
 ### Changelog
