@@ -1,3 +1,15 @@
+## v4.2 (47)
+
+Remove APK protection — v4.2 (versionCode 46).
+
+- Fixed install failing with `OutOfMemoryError` while decompiling services.jar / framework.jar on some ROMs: APKEditor now loads one dex at a time, and retries with a bigger heap if it still runs out of memory.
+
+Previous v4.2 notes:
+
+
+- Complete APKEditor 1.4.9 engine (fixes "Decompile failed / inStream parameter is null" at install).
+- Install-time integrity gate: aborts safely if the rebuilt jar's non-code resources change, instead of installing a jar that crashes at boot.
+
 ## v4.2 (46)
 
 Remove APK protection — v4.2 (versionCode 44).
